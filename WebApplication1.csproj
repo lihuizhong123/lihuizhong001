@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D44616CD-9884-4857-A826-B4EAF1D551A9}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebApplication1</RootNamespace>
+    <AssemblyName>WebApplication1</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".idea\encodings.xml" />
+    <Content Include=".idea\libraries\sass_stdlib.xml" />
+    <Content Include=".idea\misc.xml" />
+    <Content Include=".idea\modules.xml" />
+    <Content Include=".idea\scopes\scope_settings.xml" />
+    <Content Include=".idea\vcs.xml" />
+    <Content Include=".idea\workspace.xml" />
+    <Content Include="css\index.css" />
+    <Content Include="css\reset.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="images\clickMe.jpg" />
+    <Content Include="images\first_horn.jpg" />
+    <Content Include="images\first_txt.jpg" />
+    <Content Include="images\first_txt1.jpg" />
+    <Content Include="images\first_txt2.jpg" />
+    <Content Include="images\five_img.jpg" />
+    <Content Include="images\fore_img.jpg" />
+    <Content Include="images\images\first_txt_01.jpg" />
+    <Content Include="images\images\first_txt_03.jpg" />
+    <Content Include="images\images\first_txt_04.jpg" />
+    <Content Include="images\images\first_txt_06.jpg" />
+    <Content Include="images\images\first_txt_07.jpg" />
+    <Content Include="images\note.png" />
+    <Content Include="images\old\1.jpg" />
+    <Content Include="images\old\2.jpg" />
+    <Content Include="images\old\3.jpg" />
+    <Content Include="images\old\4.jpg" />
+    <Content Include="images\old\5.jpg" />
+    <Content Include="images\old\6.jpg" />
+    <Content Include="images\old\7.jpg" />
+    <Content Include="images\old\five_img.jpg" />
+    <Content Include="images\old\horn.jpg" />
+    <Content Include="images\second_people.jpg" />
+    <Content Include="images\second_txt.jpg" />
+    <Content Include="images\seven_bg.jpg" />
+    <Content Include="images\six_center_img.jpg" />
+    <Content Include="images\three_img.jpg" />
+    <Content Include="index.html" />
+    <Content Include="js\index.js" />
+    <Content Include="js\jquery-1.10.2.js" />
+    <Content Include="js\jquery-ui-1.10.2.custom.js" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".idea\.name" />
+    <None Include=".idea\blessingWall.iml" />
+    <None Include="ps\first_horn.psd" />
+    <None Include="ps\first_txt.psd" />
+    <None Include="ps\note.psd" />
+    <None Include="ps\scene.psd" />
+    <None Include="ps\second_people.psd" />
+    <None Include="ps\six_center_img.psd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>13074</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
